@@ -10,10 +10,9 @@ The pipeline consists of the following steps:
 
 1. **Annotation**: Annotate genomes using [Bakta](https://github.com/oschwengers/bakta).
 2. **Pangenome Analysis**: Identify core genes using [Panaroo](https://github.com/gtonkinhill/panaroo).
-3. **Initial Phylogeny**: Generate an initial maximum likelihood phylogeny [IQ-TREE](https://github.com/iqtree/iqtree3).
-4. **Alignment Trimming**: Trim the core gene alignment with [Trimal](http://trimal.cgenomics.org/).
-5. **Phylogeny Inference**: Build a maximum likelihood tree with [IQ-TREE](http://www.iqtree.org/).
-6. **Recombination Filtering**: Filter for recombination and generate a final phylogeny using [ClonalFrameML](https://github.com/xavierdidelot/ClonalFrameML).
+3. **Alignment Trimming**: Trim the core gene alignment with [Trimal](https://github.com/inab/trimal).
+4. **Phylogeny Inference**: Build a maximum likelihood tree with [IQ-TREE](https://github.com/iqtree/iqtree3).
+5. **Recombination Filtering**: Filter for recombination and generate a final phylogeny using [ClonalFrameML](https://github.com/xavierdidelot/ClonalFrameML).
 
 ---
 
@@ -22,11 +21,12 @@ The pipeline consists of the following steps:
 - Python 3
 - [Bakta](https://github.com/oschwengers/bakta)
 - [Panaroo](https://github.com/gtonkinhill/panaroo)
-- [Trimal](http://trimal.cgenomics.org/)
+- [Trimal](https://github.com/inab/trimal)
 - [IQ-TREE](http://www.iqtree.org/)
 - [ClonalFrameML](https://github.com/xavierdidelot/ClonalFrameML)
 
 Install each tool according to its official documentation. If you use Conda, all tools except Bakta can be installed and run within a single environment.
+
 ---
 
 ## Usage
