@@ -26,8 +26,7 @@ The pipeline consists of the following steps:
 - [IQ-TREE](http://www.iqtree.org/)
 - [ClonalFrameML](https://github.com/xavierdidelot/ClonalFrameML)
 
-Install dependencies as per each tool's documentation.
-
+Install each tool according to its official documentation. If you use Conda, all tools except Bakta can be installed and run within a single environment.
 ---
 
 ## Usage
