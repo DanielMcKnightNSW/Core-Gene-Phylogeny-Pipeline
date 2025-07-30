@@ -1,1 +1,1 @@
-# Core-Genome-Phylogeny-Pipeline
+# Core-Gene-Phylogeny-Pipeline
