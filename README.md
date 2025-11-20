@@ -2,7 +2,7 @@
 
 ---
 
-This repository contains scripts to generate a **core gene phylogeny** from a set of bacterial genomes in FASTA format. The pipeline performs genome annotation, pangenome analysis, core gene alignment, phylogeny inference, removes poorly aligned regions or spurious sequences and recombination filtering.
+Semi-automated scripts to generate a **core gene phylogeny** from a set of bacterial genomes in FASTA format. The pipeline performs genome annotation, pangenome analysis, core gene alignment, phylogeny inference, removes poorly aligned regions or spurious sequences and recombination filtering.
 
 ## Overview
 
